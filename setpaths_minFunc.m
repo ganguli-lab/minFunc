@@ -2,6 +2,7 @@
 % Niru Maheswaranathan
 % Wed Mar 20 19:05:44 2013
 
-addpath('minFunc/');
-addpath('minFunc/compiled/');
-addpath('autoDif/');
+prefix = '~/code/toolbox/minFunc/';
+addpath([prefix 'minFunc/']);
+addpath([prefix 'minFunc/compiled/']);
+addpath([prefix 'autoDif/']);
